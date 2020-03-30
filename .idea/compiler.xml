@@ -8,7 +8,9 @@
         <outputRelativeToContentRoot value="true" />
         <module name="hystrix" />
         <module name="zuul" />
+        <module name="nativeconfigserver" />
         <module name="feign" />
+        <module name="nativeconfigclient" />
         <module name="ribbon" />
         <module name="restTemplate" />
         <module name="comsumer" />
@@ -24,6 +26,8 @@
       <module name="eurekaserver" options="-parameters" />
       <module name="feign" options="-parameters" />
       <module name="hystrix" options="-parameters" />
+      <module name="nativeconfigclient" options="-parameters" />
+      <module name="nativeconfigserver" options="-parameters" />
       <module name="restTemplate" options="-parameters" />
       <module name="ribbon" options="-parameters" />
       <module name="springcloud" options="-parameters" />
