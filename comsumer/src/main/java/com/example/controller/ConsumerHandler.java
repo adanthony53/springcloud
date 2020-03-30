@@ -32,7 +32,6 @@ public class ConsumerHandler {
     @GetMapping("/findById2/{id}")
     public Student findById2(@PathVariable("id") Long id) {
         return restTemplate.getForObject("http://localhost:8010/student/findById/{id}", Student.class, id);
-
     }
 
     @PostMapping("/save")
