@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="eurekaserver" />
         <module name="restTemplate" />
+        <module name="zuul" />
         <module name="comsumer" />
         <module name="eurekaclient" />
       </profile>
@@ -20,6 +21,7 @@
       <module name="eurekaserver" options="-parameters" />
       <module name="restTemplate" options="-parameters" />
       <module name="springcloud" options="-parameters" />
+      <module name="zuul" options="-parameters" />
     </option>
   </component>
 </project>
