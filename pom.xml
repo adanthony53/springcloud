@@ -12,6 +12,7 @@
     <module>eurekaserver</module>
     <module>eurekaclient</module>
     <module>restTemplate</module>
+    <module>comsumer</module>
   </modules>
 
   <properties>

@@ -8,12 +8,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="eurekaserver" />
         <module name="restTemplate" />
+        <module name="comsumer" />
         <module name="eurekaclient" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="comsumer" options="-parameters" />
       <module name="eurekaclient" options="-parameters" />
       <module name="eurekaserver" options="-parameters" />
       <module name="restTemplate" options="-parameters" />
